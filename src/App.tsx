@@ -6,7 +6,7 @@ import Projects from "./pages/Projects"
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-bgdark-0">
+    <div className="w-full relative min-h-screen">
       <Router>
         <Nav />
         <Routes>

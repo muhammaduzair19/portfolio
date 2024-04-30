@@ -4,14 +4,28 @@ import Logo from '../assets/logo.png';
 
 const Nav = () => {
     return (
-        <nav className="w-full  flex justify-between px-48 py-5">
-            <div className='w-8 h-8' >
-                <img src={Logo} alt="" />
-            </div>
-            <div className='text-one-0 flex gap-5 font-bold'>
-                <Link to={'/'} className='hover:text-white cursor-pointer'>HOME</Link>
-                <Link to={'/about'} className='hover:text-white cursor-pointer'>ABOUT</Link>
-                <Link to={'/project'} className='hover:text-white cursor-pointer'>PROJECTS</Link>
+        <nav
+            className='sticky top-0 left-0 w-full min-h-[70px] bg-transparent flex justify-center mx-auto items-center'>
+            <div className='w-full h-full px-4  lg:max-w-5xl flex justify-between items-center'>
+                <div className='w-9 h-9'>
+                    <img src={Logo} alt="" />
+                </div>
+                <div className='flex gap-5 text-one-0'>
+                    <Link to={'/'}
+                        className='font-bold cursor-pointer text-lg hover:text-white'>
+                        Home
+                    </Link>
+
+                    <Link to={'/about'}
+                        className='font-bold cursor-pointer text-lg hover:text-white'>
+                        About
+                    </Link>
+
+                    <Link to={'/project'}
+                        className='font-bold cursor-pointer text-lg hover:text-white'>
+                        Projects
+                    </Link>
+                </div>
             </div>
         </nav>
     )
