@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import code from '../assets/code.png'
 import Resume from '../assets/Resume.pdf'
 import { BiDownload } from "react-icons/bi";
+import WorkItem from "../components/WorkItem";
 
 
 const Home = () => {
@@ -69,23 +70,29 @@ const Home = () => {
                 </div>
 
             </section>
-            <section className="w-full mx-auto min-h-[30vh] justify-center items-center">
+            <section className="w-full mx-auto min-h-[30vh] justify-center items-center py-8">
                 <div className="w-full h-full lg:max-w-5xl mx-auto flex flex-col gap-5 px-5">
                     <h2 className="uppercase text-white font-bold text-2xl">work</h2>
-                    <div className="flex flex-col tracking-tighter">
-                        <div className="text-xl">
-                            <h3 className="uppercase font-semibold text-white">Tassaract</h3>
-                            <div className="text-one-0 flex justify-between">
-                                <p>Jr. React Js Developer</p>
-                                <p className="">10/2023 - Current</p>
-                            </div>
-                        </div>
-                    </div>
+                    <WorkItem
+                        company="Tassaract"
+                        position='Jr. React Js Developer'
+                        start='10/2023'
+                        end='Current'
+                    />
+
+                    <WorkItem
+                        company="82 Solutions"
+                        position='Sr. Business Developement Executive'
+                        start='02/2022'
+                        end='04/2023'
+                    />
                 </div>
             </section>
         </div>
     )
 }
+
+
 
 
 
