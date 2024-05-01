@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.glass {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+}
+
+.brdr{
+    border-top: 0.1px solid rgba(180, 178, 178, 0.212);
+}
