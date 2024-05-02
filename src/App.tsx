@@ -4,6 +4,8 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import Footer from "./components/Footer"
 
+
+
 const App = () => {
   return (
     <div className="w-full relative min-h-screen bg-bgdark-0">
