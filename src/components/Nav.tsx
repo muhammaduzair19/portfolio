@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
@@ -11,9 +11,6 @@ const Nav = () => {
     const projectRef = useRef(null);
 
     useGSAP(() => {
-
-        const tl = gsap.timeline()
-
         gsap.from(logoRef.current, {
             opacity: 0,
             y: -25,
