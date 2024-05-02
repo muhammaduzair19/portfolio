@@ -4,11 +4,22 @@ import code from '../assets/code.png'
 import Resume from '../assets/Resume.pdf'
 import { BiDownload } from "react-icons/bi";
 import WorkItem from "../components/WorkItem";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 
 const Home = () => {
 
-
+    useGSAP(() => {
+        gsap.from('.an', {
+            opacity: 0,
+            y: -30,
+            delay: 0.4,
+            duration: 0.8,
+            stagger: 0.3,
+            ease: 'back.inOut'
+        })
+    })
 
     return (
         <div className="w-full bg-bgdark-0">
