@@ -7,6 +7,9 @@ import WorkItem from "../components/WorkItem";
 
 
 const Home = () => {
+
+
+
     return (
         <div className="w-full bg-bgdark-0">
             <section className="w-full mx-auto h-screen flex justify-center items-center bg-bgdark-0">
@@ -15,7 +18,8 @@ const Home = () => {
                         <p className="uppercase">hey, my name is <span className="text-white font-bold">uzair</span></p>
                         <p className="text-3xl font-bold md:text-3xl leading-tight tracking-tighter" >
                             <span className="text-white">
-                                React JS Developer and Javascript enthusiast from Pakistan.
+                                <span className="an">React</span> <span className="an">JS</span> <span className="an">Developer</span> <span className="an">and</span> <span className="an">
+                                    Javascript</span> enthusiast from Pakistan.
                             </span> I'm interested in learning new things about React, React Native, Node, and Typescript.
                         </p>
                         <div className="flex gap-4">
@@ -75,7 +79,7 @@ const Home = () => {
                     <h2 className="uppercase text-white font-bold text-2xl">work</h2>
                     <WorkItem
                         company="Tassaract"
-                        position='Jr. React Js Developer'   
+                        position='Jr. React Js Developer'
                         start='10/2023'
                         end='Current'
                     />
