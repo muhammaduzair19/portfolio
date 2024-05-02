@@ -16,7 +16,7 @@ const WorkItem = ({ company, position, start, end }: WorkItemProps) => {
                 <p className="uppercase text-xl font-bold text-white">{company}</p>
                 <div className="text-one-0 flex justify-between">
                     <p>{position}</p>
-                    <p className="">{start} - {end}</p>
+                    <p>{start} - {end}</p>
                 </div>
             </div>
         </div>

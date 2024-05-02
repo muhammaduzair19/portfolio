@@ -75,7 +75,7 @@ const Home = () => {
                     <h2 className="uppercase text-white font-bold text-2xl">work</h2>
                     <WorkItem
                         company="Tassaract"
-                        position='Jr. React Js Developer'
+                        position='Jr. React Js Developer'   
                         start='10/2023'
                         end='Current'
                     />
