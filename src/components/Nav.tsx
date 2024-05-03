@@ -12,17 +12,16 @@ const Nav = () => {
                     <img src={Logo} alt="" />
                 </div>
                 <div className='flex gap-5 text-one-0'>
-
-                    <Link
-                        to={'/'}
-                        className='font-bold font-serif capitalize cursor-pointer text-lg hover:text-white'>
-                        Home
-                    </Link>
-                    <Link
-                        to={'/projects'}
-                        className='font-bold font-serif capitalize cursor-pointer text-lg hover:text-white'>
-                        Projects
-                    </Link>
+                    {
+                        ['Home', 'Projects'].map((i, idx) => (
+                            <Link
+                                key={i + idx}
+                                to={i === 'Home' ? '/' : `/${i}`}
+                                className='font-bold font-serif capitalize cursor-pointer text-lg hover:text-white'>
+                                {i}
+                            </Link>
+                        ))
+                    }
 
 
                 </div>
