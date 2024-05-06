@@ -31,15 +31,12 @@ const Footer = () => {
                     }
 
                 </div>
-                
+
                 <div className="flex flex-col">
                     <a
                         className='font-bold capitalize cursor-pointer text-md font-serif hover:text-white  md:text-xl'
                         href="mailto:muhammaduzairilyas@gmail.com">Contact</a>
-                    <Link to={'/'}
-                        className='font-bold capitalize cursor-pointer text-md font-serif hover:text-white  md:text-xl'>
-                        Uses
-                    </Link>
+
                 </div>
             </div>
         </footer>
