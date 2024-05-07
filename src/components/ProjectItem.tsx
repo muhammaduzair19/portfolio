@@ -2,7 +2,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 const ProjectItem = ({ id, title, livelink, gitlink, image }: projectType) => {
     return (
-        <div className='w-full min-h-80 mt-2 md:mt-4 lg:mt-7 cursor-pointer rounded-md md:w-[46%] flex flex-col overflow-hidden'>
+        <div id={id.toString()} className='w-full min-h-80 mt-2 md:mt-4 lg:mt-7 cursor-pointer rounded-md md:w-[46%] flex flex-col overflow-hidden'>
             <div className="w-full flex-[3] " >
                 <img
                     className='w-full h-full object-contain hover:rotate-1 hover:scale-105 transition-all ease-in-out delay-150 duration-200 hover:translate-x-1 hover:-translate-y-1'
