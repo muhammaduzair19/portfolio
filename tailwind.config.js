@@ -19,9 +19,7 @@ export default {
       }
     },
   },
-  plugins: [
-    addVariablesForColors,
-  ],
+  plugins: [],
 }
 
 
