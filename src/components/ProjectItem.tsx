@@ -1,4 +1,3 @@
-import { TiLocationArrow } from 'react-icons/ti'
 import project from '../assets/project.png'
 import { BsArrowUpRight } from "react-icons/bs";
 
