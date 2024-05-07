@@ -1,3 +1,7 @@
+import project1 from './assets/project.png';
+
+
+
 export const Socials = [
     {
         name: 'Twitter',
@@ -10,3 +14,45 @@ export const Socials = [
         link: 'https://www.linkedin.com/in/muhammaduzair19'
     }
 ]
+
+
+
+export const projectDetails: projectType[] = [
+    {
+        id: 1,
+        title: 'The Fit Club',
+        livelink: 'https://the-fc.vercel.app/',
+        gitlink: 'https://github.com/muhammaduzair19/the-fit-club',
+        image: project1
+    },
+    {
+        id: 1,
+        title: 'The Fit Club',
+        livelink: 'https://the-fc.vercel.app/',
+        gitlink: 'https://github.com/muhammaduzair19/the-fit-club',
+        image: project1
+    },
+    {
+        id: 1,
+        title: 'The Fit Club',
+        livelink: 'https://the-fc.vercel.app/',
+        gitlink: 'https://github.com/muhammaduzair19/the-fit-club',
+        image: project1
+    },
+    {
+        id: 1,
+        title: 'The Fit Club',
+        livelink: 'https://the-fc.vercel.app/',
+        gitlink: 'https://github.com/muhammaduzair19/the-fit-club',
+        image: project1
+    },
+    {
+        id: 1,
+        title: 'The Fit Club',
+        livelink: 'https://the-fc.vercel.app/',
+        gitlink: 'https://github.com/muhammaduzair19/the-fit-club',
+        image: project1
+    },
+]
+
+

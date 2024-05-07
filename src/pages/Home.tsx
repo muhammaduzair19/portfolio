@@ -18,8 +18,7 @@ const Home = () => {
                         <p className="uppercase">hey, my name is <span className="text-white font-bold">uzair</span></p>
                         <p className="text-3xl font-bold md:text-3xl leading-tight tracking-tighter" >
                             <span className="text-white">
-                                <span className="an">React</span> <span className="an">JS</span> <span className="an">Developer</span> <span className="an">and</span> <span className="an">
-                                    Javascript</span> enthusiast from Pakistan.
+                                React JS Developer and Javascript enthusiast from Pakistan.
                             </span> I'm interested in learning new things about React, React Native, Node, and Typescript.
                         </p>
                         <div className="flex gap-4">

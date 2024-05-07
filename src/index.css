@@ -30,3 +30,28 @@ a::selection {
     background-color: transparent;
     color: rgba(255, 255, 255, 0.853);
 }
+
+
+.link-anim::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #b2b2b2;
+    position: absolute;
+    bottom: 60%;
+    left: 2%;
+    transition: all ease 1s;
+}
+
+.link-anim:hover::after{
+    width: 21%;
+}
+
+.link-anim>span{
+    transition: all ease 1s ;
+}
+
+.link-anim:hover span{
+    background: rgb(241, 231, 231);
+    color: black;
+}
